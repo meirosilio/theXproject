@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheXproject</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+
+  <body>
+    <%= render "layouts/navigation_bar_top" %>
+    <div class="row">
+      <%= render "layouts/navigation_side_bar" %>
+      <%= yield %>
+    </div>
+  </body>
+</html>

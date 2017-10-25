@@ -1,0 +1,60 @@
+@import "bootstrap";
+
+
+//side bar
+#side-bar{
+  max-height: 1500px;
+  min-height: 900px;
+  min-width: 250px;
+  max-width: 250px;
+
+}
+.sidebar-headers{
+  font-size: 1.2rem;
+  margin-left: 2px;
+  padding: 2px;
+  color: #4fbfa8;
+}
+.nav-link{
+  font-size: 1rem;
+  color: #fff;
+}
+.nav-link:hover{
+  font-size: 1rem;
+  color: #4fbfa8;
+}
+
+//Product Features
+#btn-index{
+  background-color: transparent;
+  border-color: #4fbfa8;
+  display: inline-block;
+  margin-left: 90%;
+}
+#btn-index:hover{
+  background-color: #4fbfa8;
+  color: #fff;
+  border-color: #4fbfa8;
+  display: inline-block;
+  margin-left: 90%;
+}
+
+//Product Features new
+.card{
+  padding: 10px;
+  margin-top: 5px;
+  border-color: #4fbfa8;
+}
+#btn-new{
+  background-color: transparent;
+  display: inline-block;
+  color: #4fbfa8;
+}
+
+
+#btn-new:hover{
+  background-color: transparent;
+  color: black;
+  display: inline-block;
+}
+
